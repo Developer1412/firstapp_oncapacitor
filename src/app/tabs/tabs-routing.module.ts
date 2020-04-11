@@ -1,6 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { TabsPage } from './tabs.page';
+import {CardListComponent} from '../card/components/card-list.component';
+import {CardListingPage} from '../card/card-listing/card-listing.page';
+import {CardDetailPage} from '../card/card-detail/card-detail.page';
+import {CardFavoritePage} from '../card/card-favorite/card-favorite.page';
 
 const routes: Routes = [
   {
@@ -8,22 +12,40 @@ const routes: Routes = [
     component: TabsPage,
     children: [
       {
-        path: 'tab1',
+        path: 'card',
         children: [
           {
             path: '',
+            // loadChildren: '../card/card.module#CardPageModule'
             loadChildren: () =>
-              import('../tab1/tab1.module').then(m => m.Tab1PageModule)
+                import('../card/card.module').then(m => m.CardPageModule)
           }
         ]
       },
       {
-        path: 'tab2',
+        path: 'card/:cardDeckGroup/:cardDeck',
         children: [
           {
             path: '',
-            loadChildren: () =>
-              import('../tab2/tab2.module').then(m => m.Tab2PageModule)
+            component: CardListingPage
+          }
+        ]
+      },
+      {
+        path: 'card/:cardId',
+        children: [
+          {
+            path: '',
+            component: CardDetailPage
+          }
+        ]
+      },
+      {
+        path: 'favorite',
+        children: [
+          {
+            path: '',
+            component: CardFavoritePage
           }
         ]
       },
@@ -39,14 +61,14 @@ const routes: Routes = [
       },
       {
         path: '',
-        redirectTo: '/tabs/tab1',
+        redirectTo: '/tabs/card',
         pathMatch: 'full'
       }
     ]
   },
   {
     path: '',
-    redirectTo: '/tabs/tab1',
+    redirectTo: '/tabs/card',
     pathMatch: 'full'
   }
 ];

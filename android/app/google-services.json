@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1093363397625",
+    "firebase_url": "https://blankapp-37424.firebaseio.com",
+    "project_id": "blankapp-37424",
+    "storage_bucket": "blankapp-37424.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093363397625:android:f969e7a7ed013152c60328",
+        "android_client_info": {
+          "package_name": "com.ionicnative.blankapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093363397625-eq6hp1ulg5lv3k36acvd36tqi2mdtd3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDKh_mjdy_lt8UhkRTe4ok5OhCGa3-CW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093363397625-eq6hp1ulg5lv3k36acvd36tqi2mdtd3l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

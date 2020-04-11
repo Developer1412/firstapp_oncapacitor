@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "142619276567",
+    "firebase_url": "https://firstappionic-605d8.firebaseio.com",
+    "project_id": "firstappionic-605d8",
+    "storage_bucket": "firstappionic-605d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142619276567:android:fdf94368506924d69cb352",
+        "android_client_info": {
+          "package_name": "com.ionicnatives.firstAppIonic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142619276567-gdj9ar0udhl1e89eusntfgvfpc1qkp3u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPsTo-IPjYZ-9ERL22OIu63JIe2f8Q348"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142619276567-gdj9ar0udhl1e89eusntfgvfpc1qkp3u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "142619276567-c9i7oa4b73fokq3e0g8rpjbfai117ssu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ionicnatives.firstAppIonic"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

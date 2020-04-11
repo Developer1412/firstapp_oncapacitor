@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">blankApp</string>
+    <string name="title_activity_main">blankApp</string>
+    <string name="package_name">com.ionicnative.blankapp</string>
+    <string name="custom_url_scheme">com.ionicnative.blankapp</string>
+</resources>
